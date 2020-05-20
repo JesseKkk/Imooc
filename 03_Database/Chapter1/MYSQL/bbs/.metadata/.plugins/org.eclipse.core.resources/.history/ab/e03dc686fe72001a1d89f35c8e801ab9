@@ -1,0 +1,15 @@
+package com.jesse.service;
+
+import com.jesse.domain.Message;
+
+public interface MessageService {
+
+	void add(Message message);
+
+	Message find(int mid);
+
+	void update(Message message);
+
+	void delete(int mid);
+
+}

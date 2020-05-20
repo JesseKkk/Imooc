@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Jesse\Desktop\MYSQL\web\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+425032392.index
+2153489204.index
+2682532185.index
+1216453454.index
+3023238630.index
+535673001.index

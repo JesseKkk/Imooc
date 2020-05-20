@@ -1,0 +1,27 @@
+-- 返回当前日期
+SELECT CURDATE(),CURRENT_DATE();
+
+-- 返回当前时间
+SELECT CURTIME(),CURRENT_TIME();
+
+-- 返回当前的日期时间
+SELECT NOW(),CURRENT_TIMESTAMP(),SYSDATE();
+
+-- 返回日期中的月份和月份的名称
+SELECT MONTH('2017-02-19');
+SELECT MONTH(CURDATE()),MONTHNAME(CURDATE());
+
+-- 返回星期几
+SELECT DAYNAME(NOW());
+
+-- 返回一周内的第几天
+SELECT DAYOFWEEK(NOW());
+
+-- 返回一年的第几周
+SELECT WEEK(NOW());
+
+-- 返回当前日期的年，月，小时，分钟，秒
+SELECT YEAR(NOW()),MONTH(NOW()),HOUR(NOW()),MINUTE(NOW()),SECOND(NOW());
+
+-- DATEDIFF() 计算两个星期相差的天数
+SELECT DATEDIFF('2020-03-25','2020-03-20');

@@ -1,0 +1,17 @@
+package com.jesse.service.impl;
+
+import com.jesse.dao.UserDao;
+import com.jesse.dao.impl.UserDaoImpl;
+import com.jesse.domain.User;
+import com.jesse.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public void add(User user) {
+		UserDao userDao = new UserDaoImpl();
+		System.out.println("UserServiceImpl.add");
+		userDao.add(user);
+	}
+
+}

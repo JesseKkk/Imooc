@@ -1,0 +1,12 @@
+package com.jesse.domain;
+
+import java.util.List;
+
+public class PageBean {
+	private int page;//当前的页数
+	private int limit;//每页显示的记录数
+	private int totalCount;//总的记录数
+	private int totalPage;//总页数
+	private List<Message> list;//每页显示的数据的集合
+	
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var json = [
+		{
+			"empno": 1100,
+			"ename": "李宁",
+			"job": "软件工程师",
+			"hiredate": "2017-05-12",
+			"salary": 13000,
+			"dname": "研发部"
+		},
+		{
+			"empno": 1101,
+			"ename": "王乐",
+			"job": "光学工程师",
+			"hiredate": "2018-05-12",
+			"salary": 20000,
+			"dname": "市场部",
+			"customers": [
+				{
+					"cname": "李东"
+				},
+				{
+					"cname": "小明"
+				}
+			]
+		}
+	];
+	console.log(json);
+	for(var i = 0; i < json.length; i++){
+		var emp =json[i];
+		document.write("<h1>");
+		document.write(emp.empno);
+		document.write(", " + emp.name);
+		document.write(", " + emp.job);
+		document.write(", " + emp.hiredate);
+		document.write(", " + emp.salary);
+		document.write(", " + emp.dname);
+		document.write("</h1>");
+		if(emp.customers != null){
+			for(var j = 0; j < emp.customers.length; j++){
+				var cus = emp.customers[j];
+				document.write("<h2>");
+				document.write(cus.cname);
+				document.write("</h2>");
+			}
+		}
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>注册</title>
+        <link rel="stylesheet" href="${pageContext.request.contextPath }/css/reg.css">
+
+		<script type="text/javascript">
+	    	function changeImg(){
+	    		var codeImg = document.getElementById("codeImg");
+	    		codeImg.src="${pageContext.request.contextPath }/KaptchaServlet?time=" + new Date().getTime();
+	    	}
+		</script>
+    </head>
+    <body>
+    <div class="reg">
+        <div class="header">
+            <h1>
+                <a href="${pageContext.request.contextPath }/login.jsp">登录</a>
+                <a href="${pageContext.request.contextPath }/reg.jsp"">注册</a>
+            </h1>
+            <button></button>
+        </div>
+        <p>${msg }</p>
+        <form action="${pageContext.request.contextPath }/RegistServlet" method="post">
+            <div class="name">
+                <input type="text"  name="username" placeholder="请输入用户名">
+                <p></p>
+            </div>
+            <div class="pwd">
+                <input type="password"  name="password" placeholder="请输入密码">
+                <p></p>
+            </div>
+            <div class="confirm-pwd">
+                <input type="password" name="pwd2" placeholder="确认密码">
+                <p></p>
+            </div>
+            <div class="code">
+                <input type="text"  name="verifyCode" style="width: 150px">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <img id="codeImg" src="${pageContext.request.contextPath }/KaptchaServlet" style="width: 150px;height: 42px;vertical-align: middle;cursor:pointer;" onclick="changeImg()">
+            </div>
+            <div class="btn-red">
+                <input  type="submit" value="注册" id="reg-btn">
+            </div>
+        </form>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95eba5b7-11de-44d5-bae1-1477aabc3db0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+  </component>
+  <component name="ProjectId" id="1ZyZYrA8SIXFyHRTYJ87sO17PxR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95eba5b7-11de-44d5-bae1-1477aabc3db0" name="Default Changelist" comment="" />
+      <created>1585813344179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585813344179</updated>
+      <workItem from="1585813353461" duration="1689000" />
+      <workItem from="1585815159591" duration="1347000" />
+      <workItem from="1585816831430" duration="324000" />
+      <workItem from="1585817211784" duration="546000" />
+      <workItem from="1585817934343" duration="948000" />
+      <workItem from="1585819007480" duration="730000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="203" y="49" key="#Project_Structure" timestamp="1585819530097">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="203" y="49" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585819530097" />
+    <state x="32" y="133" key="SettingsEditor" timestamp="1585814929740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="32" y="133" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585814929740" />
+    <state x="352" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1585819007527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="352" y="332" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585819007527" />
+    <state x="-13" y="106" width="1430" height="743" key="new project wizard" timestamp="1585819757736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-13" y="106" width="1430" height="743" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585819757735" />
+  </component>
+</project>

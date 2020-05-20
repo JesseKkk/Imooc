@@ -1,0 +1,14 @@
+package com.jesse.dao.impl;
+
+import com.jesse.dao.UserDao;
+import com.jesse.domain.User;
+
+public class UserDaoImpl implements UserDao {
+
+	@Override
+	public void add(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

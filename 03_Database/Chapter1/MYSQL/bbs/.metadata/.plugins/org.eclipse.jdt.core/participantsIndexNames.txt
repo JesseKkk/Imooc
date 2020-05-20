@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\Jesse\Desktop\MYSQL\bbs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1519353414.index
+\ bbs\src
+C:\Users\Jesse\Desktop\MYSQL\bbs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1295343120.index
+\bbs\src
+C:\Users\Jesse\Desktop\MYSQL\bbs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3219191413.index
+\bbs\src

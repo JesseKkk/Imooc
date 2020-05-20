@@ -1,0 +1,57 @@
+package com.jesse.jdbc.demo1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.junit.Test;
+
+public class JDBCDemo2 {
+	
+	@Test
+	/*
+	 *  保存操作
+	 */
+	public void demo2() {
+		Connection conn = null;
+		Statement stmt = null;
+		try {
+			// 注册驱动：
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			// 获得连接
+			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbctest" +
+					"?useSSL=false&serverTimezone=Hongkong&useUnicode=true&characterEndocing=utf-8",
+					"root", "1234");
+			//获得执行SQL语句的对象：
+			stmt = conn.createStatement();
+			// 编写SQL：
+			String sql = "INSERT user VALUES ('NULL','ddd','444','孔金星')";
+			//执行SQL：
+			int i = stmt.executeUpdate(sql);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			if(stmt != null) {
+				try {
+					stmt.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				stmt = null;
+			}
+			if(conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				conn = null;
+			}
+			
+		}
+		
+	}
+}

@@ -1,0 +1,37 @@
+package com.jesse.web.action;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/UserServlet")
+public class UserServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//接收参数
+		String methodName = request.getParameter("method");
+		//判断
+		if(methodName.equals("display")) {
+			display(request,response);
+		}else if()
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+	/**
+	 * 用户模块：显示信息
+	 * @param request
+	 * @param response
+	 * @throws IOException 
+	 */
+	private void display(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		//跳转显示
+		response.sendRedirect(request.getContextPath() + "/admin/user.jsp");
+	}
+}

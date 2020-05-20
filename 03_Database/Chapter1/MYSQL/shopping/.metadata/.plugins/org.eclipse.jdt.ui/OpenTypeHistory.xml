@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=shop/src&lt;com.jesse.dao{CategoryDao.java[CategoryDao" modifiers="513" timestamp="1585187093456"/>
+<typeInfo handle="=shop/src&lt;com.jesse.dao{ProductDao.java[ProductDao" modifiers="513" timestamp="1585205318000"/>
+<typeInfo handle="=shop/src&lt;com.jesse.service{CategoryService.java[CategoryService" modifiers="513" timestamp="1585104649440"/>
+<typeInfo handle="=shop/src&lt;com.jesse.service{ProductService.java[ProductService" modifiers="513" timestamp="1585194107372"/>
+<typeInfo handle="=shop/src&lt;com.jesse.dao{UserDao.java[UserDao" modifiers="513" timestamp="1585034851984"/>
+<typeInfo handle="=shop/src&lt;com.jesse.service{UserService.java[UserService" modifiers="513" timestamp="1585034569228"/>
+</typeInfoHistroy>

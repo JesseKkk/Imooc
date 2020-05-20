@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.jesse.domain.User"/>
+<fullyQualifiedTypeName name="com.jesse.service.UserService"/>
+<fullyQualifiedTypeName name="com.jesse.service.impl.UserServiceImpl"/>
+<fullyQualifiedTypeName name="com.jesse.dao.UserDao"/>
+<fullyQualifiedTypeName name="com.jesse.dao.impl.UserDaoImpl"/>
+<fullyQualifiedTypeName name="com.jesse.web.action.CategoryServlet"/>
+<fullyQualifiedTypeName name="com.jesse.dao.impl.CategoryDaoImpl"/>
+<fullyQualifiedTypeName name="com.jesse.dao.CategoryDao"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.jesse.utils.JDBCUtils"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.jesse.domain.Category"/>
+<fullyQualifiedTypeName name="com.jesse.utils.UploadUtils"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.jesse.dao.ProductDao"/>
+<fullyQualifiedTypeName name="com.jesse.dao.impl.ProductDaoImpl"/>
+<fullyQualifiedTypeName name="com.jesse.service.CategoryService"/>
+<fullyQualifiedTypeName name="com.jesse.service.impl.CategoryServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.jesse.service.ProductService"/>
+<fullyQualifiedTypeName name="com.jesse.service.impl.ProductServiceImpl"/>
+<fullyQualifiedTypeName name="com.jesse.domain.PageBean"/>
+<fullyQualifiedTypeName name="com.jesse.domain.Product"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,14 @@
+package com.jesse.dao.impl;
+
+import com.jesse.dao.MessageDao;
+import com.jesse.domain.Message;
+
+public class MessageDaoImpl implements MessageDao {
+
+	@Override
+	public void add(Message message) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

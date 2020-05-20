@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>first-filter</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- filter标签用于说明哪个类是过滤器，并且在应用启动时自动加载 -->
+  <filter>
+  	<filter-name>MyFirstFilter</filter-name>
+  	<filter-class>com.jesse.filter.MyFirstFilter</filter-class>
+  </filter>
+  
+<!--     <filter>
+  	<filter-name>CharacterEncodingFilter</filter-name>
+  	<filter-class>com.jesse.filter.CharacterEncodingFilter</filter-class>
+  	 <init-param>
+  		<param-name>encoding</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  	 <init-param>
+  		<param-name>p1</param-name>
+  		<param-value>v1</param-value>
+  	</init-param>
+  </filter> -->
+  
+  <!-- filter-mapping标签用于说明过滤器对 URL应用的范围，要点有二：
+  	1. filter-name 过滤器名称与filter.filter-name保持一致
+  	2. url-pattern 说明过滤器作用范围，/*代表对所有URL进行过滤
+   -->
+  <filter-mapping>
+  	<filter-name>MyFirstFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+<!--     <filter-mapping>
+  	<filter-name>CharacterEncodingFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping> -->
+  
+</web-app>

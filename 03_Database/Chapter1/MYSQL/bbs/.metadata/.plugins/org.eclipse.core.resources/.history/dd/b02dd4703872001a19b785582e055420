@@ -1,0 +1,9 @@
+package com.jesse.dao;
+
+import com.jesse.domain.User;
+
+public interface UserDao {
+
+	void add(User user);
+
+}

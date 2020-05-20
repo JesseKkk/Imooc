@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>servlet_advanced</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>patternServlet</servlet-name>
+  	<servlet-class>com.jesse.servlet.pattern.PatternServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>patternServlet</servlet-name>
+  	<url-pattern>/pattern/*</url-pattern>
+  </servlet-mapping>
+  <context-param>
+  	<param-name>copyright</param-name>
+  	<param-value>2021 jesse.com</param-value>
+  </context-param>
+  <!-- 指定错误页面 -->
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/error/404.html</location>
+  </error-page>
+    <error-page>
+  	<error-code>500</error-code>
+  	<location>/error/500.jsp</location>
+  </error-page>
+</web-app>

@@ -1,0 +1,7 @@
+package com.jesse.dao.impl;
+
+import com.jesse.dao.MessageDao;
+
+public class MessageDaoImpl implements MessageDao {
+
+}

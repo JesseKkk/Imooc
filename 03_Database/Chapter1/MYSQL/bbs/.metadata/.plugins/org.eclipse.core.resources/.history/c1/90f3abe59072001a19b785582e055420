@@ -1,0 +1,5 @@
+package com.jesse.service;
+
+public interface MessageService {
+
+}

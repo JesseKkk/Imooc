@@ -1,0 +1,86 @@
+package com.jesse.web.action;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.jesse.domain.User;
+import com.jesse.service.UserService;
+import com.jesse.service.impl.UserServiceImpl;
+
+@WebServlet("/UserServlet")
+public class UserServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//接收参数
+		String methodName = request.getParameter("method");
+		//判断
+		if(methodName.equals("display")) {
+			display(request,response);
+		}else if(methodName.equals("edit")) {
+			edit(request,response);
+		}else if(methodName.equals("update")) {
+			update(request,response);
+		}
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+	
+	/**
+	 * 用户模块：更新信息
+	 * @param request
+	 * @param response
+	 * @throws IOException 
+	 * @throws ServletException 
+	 */
+	private void update(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//完成密码确认校验
+		String password = request.getParameter("password");
+		String pwd2  = request.getParameter("pwd2");
+		if(!password.equals(pwd2)) {
+			request.setAttribute("msg","两次输入密码不一致！");
+			request.getRequestDispatcher("/admin/edit_user.jsp").forward(request, response);			
+			return;			
+		}
+		//1、接收参数
+		String uid = request.getParameter("uid");
+		String username = request.getParameter("username");
+		//2、封装数据
+		User user = new User();
+		user.setUid(uid);
+		user.setUsername(username);
+		user.setPassword(password);
+		//3、处理数据
+		UserService userService = new UserServiceImpl();
+		userService.update(user);
+		User existUser = userService.login(user);
+	}
+	
+	/**
+	 * 用户模块：编辑信息
+	 * @param request
+	 * @param response
+	 * @throws IOException
+	 */
+	private void edit(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		//跳转显示
+		response.sendRedirect(request.getContextPath() + "/admin/edit_user.jsp");
+	}
+
+	/**
+	 * 用户模块：显示信息
+	 * @param request
+	 * @param response
+	 * @throws IOException 
+	 */
+	private void display(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		//跳转显示
+		response.sendRedirect(request.getContextPath() + "/admin/user.jsp");
+	}
+}

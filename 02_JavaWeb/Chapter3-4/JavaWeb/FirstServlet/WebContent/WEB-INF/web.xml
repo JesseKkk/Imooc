@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>FirstServlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<!-- servlet的别名 -->
+  	<servlet-name>first</servlet-name>
+  	<servlet-class>com.jesse.servlet.FirstServlet</servlet-class>
+  </servlet>
+  <!-- 将Servlet与URL绑定 -->
+ <servlet-mapping>
+  	<servlet-name>first</servlet-name>
+	<url-pattern>/hi</url-pattern>
+ </servlet-mapping>
+ 
+   <servlet>
+  	<!-- servlet的别名 -->
+  	<servlet-name>simple</servlet-name>
+  	<servlet-class>com.jesse.servlet.SimpleServlet</servlet-class>
+  </servlet>
+  <!-- 将Servlet与URL绑定 -->
+ <servlet-mapping>
+  	<servlet-name>simple</servlet-name>
+	<url-pattern>/simple</url-pattern>
+ </servlet-mapping>
+ 
+    <servlet>
+  	<!-- servlet的别名 -->
+  	<servlet-name>requestMethod</servlet-name>
+  	<servlet-class>com.jesse.servlet.RequestMethodServlet</servlet-class>
+  </servlet>
+  <!-- 将Servlet与URL绑定 -->
+ <servlet-mapping>
+  	<servlet-name>requestMethod</servlet-name>
+	<url-pattern>/request_method</url-pattern>
+ </servlet-mapping>
+ 
+     <servlet>
+  	<!-- servlet的别名 -->
+  	<servlet-name>create</servlet-name>
+  	<servlet-class>com.jesse.servlet.CreateServlet</servlet-class>
+  	<load-on-startup>0</load-on-startup>
+  </servlet>
+  
+       <servlet>
+  	<!-- servlet的别名 -->
+  	<servlet-name>import</servlet-name>
+  	<servlet-class>com.jesse.servlet.ImportServlet</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  
+</web-app>

@@ -1,0 +1,24 @@
+package com.jesse.reflect.test;
+
+import org.junit.Test;
+
+public class MethodTest {
+
+	@Test
+	// 测试共有的方法
+	public void demo1() {
+		
+	}
+	
+	@Test
+	// 测试私有的方法
+	public void demo2() {
+		
+	}
+	
+	@Test
+	// 测试私有的方法带参数
+	public void demo3() {
+		
+	}
+}

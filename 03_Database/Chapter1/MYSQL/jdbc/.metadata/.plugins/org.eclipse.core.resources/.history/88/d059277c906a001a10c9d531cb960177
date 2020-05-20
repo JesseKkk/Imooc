@@ -1,0 +1,33 @@
+package com.jesse.jdbc.demo1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import org.junit.jupiter.api.Test;
+
+import com.mysql.jdbc.Driver;
+
+public class JDBCDemo1 {
+	
+	@Test
+	/*
+	 * JDBC的入门程序 
+	 */
+	public void demo1() {
+		
+		try {
+			// 1.加载驱动
+			DriverManager.registerDriver(new Driver());
+			// 2.获得连接
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbctest", "root", "1234");
+			// 3.创建执行SQL语句的对象，并且执行SQL
+			String sql = "SELECT * FROM user";
+			Statement stmt = conn.createStatement();
+			// 4.释放资源
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+}

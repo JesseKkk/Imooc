@@ -1,0 +1,43 @@
+package com.jesse.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.jesse.dao.UserDao;
+import com.jesse.domain.User;
+import com.jesse.utils.JDBCUtils;
+
+public class UserDaoImpl implements UserDao {
+
+	@Override
+	public void add(User user) {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		try {
+			//1、获得连接
+			conn = JDBCUtils.getConnection();
+			//2、编写SQL
+			String sql = "INSERT user VALUES (null, ?, ?)";
+			//3、预编译SQL
+			pstmt = conn.prepareStatement(sql);
+			//4、设置参数
+			pstmt.setString(1, user.getUsername());
+			pstmt.setString(2, user.getPassword());
+			//5、执行
+			pstmt.executeUpdate();
+			//6、结果处理
+		}catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			//7、释放
+			JDBCUtils.release(pstmt, conn);
+		}	
+	}
+
+	@Override
+	public User login(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

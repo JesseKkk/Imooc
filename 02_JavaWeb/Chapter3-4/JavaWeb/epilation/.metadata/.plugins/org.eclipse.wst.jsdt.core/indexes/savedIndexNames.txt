@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\epilation\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3564650354.index
+4125453828.index
+807696540.index
+2243716826.index
+3603410647.index
+3218112488.index

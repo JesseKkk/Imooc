@@ -1,0 +1,7 @@
+<classpath>
+  <container id="regist_login!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/FileWeb/regist_login/WebContent/WEB-INF/lib/kaptcha-2.3.2.jar">
+      <source-attachment-path>C:/Users/Jesse/Desktop/kaptcha-2.3.2-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

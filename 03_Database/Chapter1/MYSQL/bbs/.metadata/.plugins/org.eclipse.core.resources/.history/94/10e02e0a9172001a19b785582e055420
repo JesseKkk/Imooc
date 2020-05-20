@@ -1,0 +1,7 @@
+package com.jesse.service.impl;
+
+import com.jesse.service.MessageService;
+
+public class MessageServiceImpl implements MessageService {
+
+}

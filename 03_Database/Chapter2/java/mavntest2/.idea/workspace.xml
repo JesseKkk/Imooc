@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="maventest" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee208788-5a77-4f66-b2ad-abca719c9b22" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zyt6Rdl49DKDLJez3JMly36EQW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PinyinTestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jesse.maven.PinyinTestor" />
+      <module name="mavntest2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PinyinTestor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee208788-5a77-4f66-b2ad-abca719c9b22" name="Default Changelist" comment="" />
+      <created>1585822985840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585822985840</updated>
+      <workItem from="1585822991177" duration="7723000" />
+      <workItem from="1585834426131" duration="622000" />
+      <workItem from="1586137161002" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="340" y="311" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585832168297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="340" y="311" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585832168297" />
+    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1585832161612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585832161612" />
+    <state width="1385" height="234" key="GridCell.Tab.0.bottom" timestamp="1585834100206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1385" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585834100206" />
+    <state width="1385" height="234" key="GridCell.Tab.0.center" timestamp="1585834100206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1385" height="234" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585834100206" />
+    <state width="1385" height="234" key="GridCell.Tab.0.left" timestamp="1585834100205">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1385" height="234" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585834100205" />
+    <state width="1385" height="234" key="GridCell.Tab.0.right" timestamp="1585834100206">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1385" height="234" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585834100206" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1585832646257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585832646257" />
+    <state x="349" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1586137161026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="349" y="289" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586137161026" />
+  </component>
+</project>

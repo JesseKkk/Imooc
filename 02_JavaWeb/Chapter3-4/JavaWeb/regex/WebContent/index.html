@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="#" method="post" id="frmInfo">
+		<div id="err" style="color:red">
+		
+		</div>
+		<div>
+			姓名：<input id="name" name="name" placeholder="张三"/>
+		</div>
+		<div>
+			身份证：<input id="indo" name="indo" placeholder="410882199406054013"/>
+		</div>
+		<div>
+			<input type="submit"/>
+		</div>
+	</form>
+	<script type="text/javascript">
+		document.getElementById("frmInfo").onsubmit = function(){
+			//在JS中定义正则表达式对象方式：/正则表达式/
+			var regex1 = /^[\u4e00-\u9fa5]{2,8}$/;
+			var regex2 = /^[1234568]\d{16}[0-9xX]$/;
+			var name =  document.getElementById("name").value;
+			var indo = document.getElementById("idno").value;
+			//利用正则校验数据，true代表校验成功
+			if(regex1.test(name) == false){
+				document.getElementById("err").innerHTML = "无效姓名";
+				return false;
+			}else if(regex2.test(indo) == false){
+				document.getElementById("err").innerHTML = "无效身份证号";
+				return false;					
+			}else{
+				alert("验证通过，准备提交！")
+				return true;
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+package com.jesse.service;
+
+import com.jesse.domain.User;
+
+public interface UserService {
+
+	void add(User user);
+
+	User login(User user);
+
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\Jesse\Desktop\MYSQL\shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2111886735.index
+\shop\src
+C:\Users\Jesse\Desktop\MYSQL\shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2180192525.index
+\shop\src
+C:\Users\Jesse\Desktop\MYSQL\shopping\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\669947928.index
+\shop\src

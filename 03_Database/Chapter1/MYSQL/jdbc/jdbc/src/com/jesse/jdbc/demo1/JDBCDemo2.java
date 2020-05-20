@@ -1,0 +1,221 @@
+package com.jesse.jdbc.demo1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.junit.Test;
+
+public class JDBCDemo2 {
+	
+	@Test
+	/**
+	 *  查询操作
+	 */
+	public void demo4() {
+		Connection conn = null;
+		Statement stmt = null;
+		ResultSet rs = null;
+		try {
+			//加载驱动
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			//获得Connection对象
+			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbctest" +
+					"?useSSL=false&serverTimezone=Hongkong&useUnicode=true&characterEndocing=utf-8",
+					"root", "1234");
+			//获得SQL执行对象
+			stmt = conn.createStatement();
+			//SQL语句
+			String sql =  "SELECT * FROM user";
+			//执行SQL语句，返回结果集
+			rs = stmt.executeQuery(sql);
+			//遍历结果集
+			while(rs.next()) {
+				int uid = rs.getInt("uid");
+				String username = rs.getString("username");
+				String password = rs.getString("password");
+				String name = rs.getString("name");
+				System.out.println(uid + "  " + username + "  " + password + "  " + name);
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			if (rs != null) {
+				try {
+					rs.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				rs = null;
+			}
+			
+			if (stmt != null) {
+				try {
+					stmt.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				stmt = null;
+			}			
+			
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				conn = null;
+			}
+		}
+	}
+	
+	@Test
+	/*
+	 *  删除操作
+	 */
+	public void demo3() {
+		Connection conn = null;
+		Statement stmt = null;
+		try {
+			// 加载驱动
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			// 获得连接
+			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbctest" +
+					"?useSSL=false&serverTimezone=Hongkong&useUnicode=true&characterEndocing=utf-8",
+					"root", "1234");
+			// 获得SQL的执行对象
+			stmt = conn.createStatement();
+			// SQL语句
+			String sql = "DELETE FROM user WHERE uid=4";
+			//执行SQL
+			int i = stmt.executeUpdate(sql);
+			if (i >0) {
+				System.out.println("删除成功");
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			// 释放资源
+			if (stmt != null) {
+				try {
+					stmt.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				stmt = null;
+			}
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				conn = null;
+			}
+		}
+	}
+	
+	@Test
+	/*
+	 *  修改操作
+	 */
+	public void demo2() {
+		Connection conn = null;
+		Statement stmt = null;
+		try {
+			// 加载驱动
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			// 获得连接
+			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbctest" +
+					"?useSSL=false&serverTimezone=Hongkong&useUnicode=true&characterEndocing=utf-8",
+					"root", "1234");
+			// 获得SQL的执行对象
+			stmt = conn.createStatement();
+			// SQL语句
+			String sql = "UPDATE user SET password='555' WHERE uid=4";
+			//执行SQL
+			int i = stmt.executeUpdate(sql);
+			if (i >0) {
+				System.out.println("修改成功");
+			}
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			// 释放资源
+			if (stmt != null) {
+				try {
+					stmt.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				stmt = null;
+			}
+			if (conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				conn = null;
+			}
+		}
+	}
+	
+	@Test
+	/*
+	 *  保存操作
+	 */
+	public void demo1() {
+		Connection conn = null;
+		Statement stmt = null;
+		try {
+			// 注册驱动：
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			// 获得连接
+			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jdbctest" +
+					"?useSSL=false&serverTimezone=Hongkong&useUnicode=true&characterEndocing=utf-8",
+					"root", "1234");
+			//获得执行SQL语句的对象：
+			stmt = conn.createStatement();
+			// 编写SQL：
+			String sql = "INSERT user VALUES (null,'ddd','444','孔金星')";
+			//执行SQL：
+			int i = stmt.executeUpdate(sql);
+			if(i>0) {
+				System.out.println("保存成功");
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			if(stmt != null) {
+				try {
+					stmt.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				stmt = null;
+			}
+			if(conn != null) {
+				try {
+					conn.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				conn = null;
+			}
+			
+		}
+		
+	}
+}

@@ -1,0 +1,23 @@
+package com.jesse.reflect.test;
+
+import java.lang.reflect.Field;
+
+import org.junit.Test;
+
+public class FiledTest {
+	
+	@Test
+	//测试共有属性
+	public void demo1() throws Exception {
+		// 获得Class
+		Class c1 = Class.forName("com.jesse.reflect.test.Person");
+		// 获得属性
+		Field field = c1.getField("name");
+		// 操作属性  p.name = "";
+		Person p = (Person)c1.newInstance();
+		field.set(p, "李四");//p.name = "李四";
+		
+		Object obj = field.get(p);
+		System.out.println(p);
+	}
+}

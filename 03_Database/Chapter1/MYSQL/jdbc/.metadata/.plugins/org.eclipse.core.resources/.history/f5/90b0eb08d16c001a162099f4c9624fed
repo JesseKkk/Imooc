@@ -1,0 +1,5 @@
+package com.jesse.jdbc.utils;
+
+public class JDBCUtils {
+
+}

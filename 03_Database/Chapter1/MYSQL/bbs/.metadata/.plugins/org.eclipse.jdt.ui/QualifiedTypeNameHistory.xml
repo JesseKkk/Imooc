@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.jesse.dao.impl.UserDaoImpl"/>
+<fullyQualifiedTypeName name="com.jesse.dao.UserDao"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.jesse.utils.JDBCUtils"/>
+<fullyQualifiedTypeName name="com.jesse.service.UserService"/>
+<fullyQualifiedTypeName name="com.jesse.service.impl.UserServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="com.jesse.domain.Message"/>
+<fullyQualifiedTypeName name="com.jesse.service.MessageService"/>
+<fullyQualifiedTypeName name="com.jesse.service.impl.MessageServiceImpl"/>
+<fullyQualifiedTypeName name="com.jesse.dao.MessageDao"/>
+<fullyQualifiedTypeName name="com.jesse.dao.impl.MessageDaoImpl"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.jesse.domain.PageBean"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.jesse.domain.User"/>
+</qualifiedTypeNameHistroy>

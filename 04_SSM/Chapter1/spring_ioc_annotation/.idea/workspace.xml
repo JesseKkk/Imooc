@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="827d3d09-0dc3-4b97-ab9f-3a4964e59548" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bCtDk2t4IIIAvzeyq5WVnHTgBQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\java\spring_ioc_annotation\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringDemo3.demo1">
+    <configuration name="SpringDemo1.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.demo1.SpringDemo1" />
+      <option name="METHOD_NAME" value="demo2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo1.demo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.demo1.SpringDemo1" />
+      <option name="METHOD_NAME" value="demo3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo2.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.demo2.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo2.demo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.demo2.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo3.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.demo3" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.demo3.SpringDemo3" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringDemo3.demo1" />
+        <item itemvalue="JUnit.SpringDemo2.demo2" />
+        <item itemvalue="JUnit.SpringDemo2.demo1" />
+        <item itemvalue="JUnit.SpringDemo1.demo3" />
+        <item itemvalue="JUnit.SpringDemo1.demo2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="827d3d09-0dc3-4b97-ab9f-3a4964e59548" name="Default Changelist" comment="" />
+      <created>1588147786238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588147786238</updated>
+      <workItem from="1588147793971" duration="8857000" />
+      <workItem from="1588553921649" duration="192000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1231" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1588164603013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1231" y="154" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588164603013" />
+    <state width="1110" height="264" key="GridCell.Tab.0.bottom" timestamp="1588165296026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588165296026" />
+    <state width="1110" height="264" key="GridCell.Tab.0.center" timestamp="1588165296026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588165296026" />
+    <state width="1110" height="264" key="GridCell.Tab.0.left" timestamp="1588165296026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588165296026" />
+    <state width="1110" height="264" key="GridCell.Tab.0.right" timestamp="1588165296026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1110" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588165296026" />
+    <state x="937" y="308" key="com.intellij.ide.util.TipDialog" timestamp="1588553919623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="937" y="308" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588553919623" />
+    <state x="633" y="144" width="1218" height="743" key="new project wizard" timestamp="1588554177511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="633" y="144" width="1218" height="743" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588554177511" />
+    <state x="970" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1588164414242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="970" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588164414242" />
+  </component>
+</project>

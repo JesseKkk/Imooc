@@ -1,0 +1,15 @@
+package com.jesse.jdbc.demo1;
+
+import org.junit.jupiter.api.Test;
+
+public class JDBCDemo1 {
+	
+	@Test
+	/*
+	 * JDBC的入门程序 
+	 */
+	public void demo1() {
+		
+	}
+	
+}

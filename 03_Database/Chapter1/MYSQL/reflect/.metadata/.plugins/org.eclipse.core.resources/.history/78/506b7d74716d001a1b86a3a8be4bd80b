@@ -1,0 +1,13 @@
+package com.jesse.reflect.test;
+
+import org.junit.Test;
+
+public class FiledTest {
+	
+	@Test
+	//测试共有属性
+	public void demo1() {
+		// 获得Class
+		Class.forName("com.jesse.reflect.test.Person");
+	}
+}

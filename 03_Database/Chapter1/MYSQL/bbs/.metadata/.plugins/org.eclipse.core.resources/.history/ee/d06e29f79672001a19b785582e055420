@@ -1,0 +1,9 @@
+package com.jesse.service;
+
+import com.jesse.domain.Message;
+
+public interface MessageService {
+
+	void add(Message message);
+
+}

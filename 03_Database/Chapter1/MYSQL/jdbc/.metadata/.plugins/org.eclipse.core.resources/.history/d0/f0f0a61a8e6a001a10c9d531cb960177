@@ -1,0 +1,12 @@
+package com.jesse.jdbc.demo1;
+
+import org.junit.jupiter.api.Test;
+
+public class JDBCDemo1 {
+	
+	@Test
+	public void jdbstest() {
+		
+	}
+	
+}

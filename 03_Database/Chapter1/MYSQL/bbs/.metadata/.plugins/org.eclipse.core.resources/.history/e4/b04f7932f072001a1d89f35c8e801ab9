@@ -1,0 +1,22 @@
+package com.jesse.service.impl;
+
+import com.jesse.dao.MessageDao;
+import com.jesse.dao.impl.MessageDaoImpl;
+import com.jesse.domain.Message;
+import com.jesse.service.MessageService;
+
+public class MessageServiceImpl implements MessageService {
+
+	@Override
+	public void add(Message message) {
+		MessageDao messageDao = new MessageDaoImpl();
+		messageDao.add(message);
+	}
+
+	@Override
+	public Message find(int mid) {
+		MessageDao messageDao = new MessageDaoImpl();
+		return messageDao.find(mid);
+	}
+
+}

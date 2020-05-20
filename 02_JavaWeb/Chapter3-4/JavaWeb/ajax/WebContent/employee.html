@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>歌曲信息</title>
+<style type="text/css">
+.btns{
+	width: 100%;
+	text-align:center;
+}
+.btn{
+	width: 30%;
+}
+#container{
+	text-align:center;	
+}
+</style>
+</head>
+<body>
+	<div class="btns">
+		<input type="button"  value="流行歌曲" class="btn">
+		<input type="button"  value="经典歌曲" class="btn">
+		<input type="button"  value="摇滚歌曲" class="btn">
+	</div>
+	<div id="container">
+	</div>
+	<script type="text/javascript" >
+		var index;
+		var btns = document.getElementsByClassName("btn");
+		console.log(btns.length)
+		for(var j = 0; j < btns.length; j++ ){
+			btns[j].id = j;
+		}
+		for(var i = 0; i < btns.length; i++){
+			btns[i].onclick = function(){
+				index =this.id;
+				//1. 创建XMLHttpRequest
+				var xmlhttp;
+				if(window.XMLHttpRequest){
+					xmlhttp = new XMLHttpRequest();
+				}else{
+					xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				//2. 发送Ajax请求
+				xmlhttp.open("GET", "/ajax/emp", true);
+				xmlhttp.send();
+				//3. 处理服务器响应
+				xmlhttp.onreadystatechange =  function(){
+					if(xmlhttp.readyState == 4 && xmlhttp.status == 200){
+						var text = xmlhttp.responseText;
+						var json = JSON.parse(text);
+						var html  = "";
+						console.log(json[0].ename);
+						console.log(index);
+						switch(index){
+							case "0":
+								for(var k = 0; k < json[0].ename.length; k++)
+									{
+										html = html + "<h2>" +  json[0].ename[k] + "</h2>";
+									}
+								break;
+							case "1":
+								for(var k = 0; k < json[0].ejob.length; k++)
+								{
+									html = html + "<h2>" +  json[0].ejob[k] + "</h2>";
+								}
+								break;
+							case "2":
+								for(var k = 0; k < json[0].edepartment.length; k++)
+								{
+									html = html + "<h2>" +  json[0].edepartment[k] + "</h2>";
+								}
+								break;
+						}
+						document.getElementById("container").innerHTML = html;
+					}
+				}
+			}
+		}
+	</script>
+</body>
+</html>

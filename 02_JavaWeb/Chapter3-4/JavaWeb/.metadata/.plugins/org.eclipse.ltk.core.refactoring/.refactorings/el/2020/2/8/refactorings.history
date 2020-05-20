@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;el&apos;&#x0D;&#x0A;- Original project: &apos;el&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     taglibs-standard-impl-1.2.5.jar&#x0D;&#x0A;     taglibs-standard-spec-1.2.5.jar" description="Delete elements" element1="WebContent/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" element2="WebContent/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1582014889429" subPackages="false" version="1.0"/>
+</session>

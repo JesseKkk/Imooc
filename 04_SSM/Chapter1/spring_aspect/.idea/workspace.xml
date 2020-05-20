@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f92375db-f559-49fd-ab1a-f4e1dc09eeae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bR8QZMI4HyXhitZyeY9MnijNX9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\java\spring_aspect\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestAop.testAOP">
+    <configuration name="SpringDemo1.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aspect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.aspectj.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.aspectj.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.aspectj.demo1.SpringDemo1" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo2.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aspect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.aspectj.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.aspectj.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.aspectj.demo2.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAop.testAOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aspect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.aspectj.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.aspectj.demo3" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.aspectj.demo3.TestAop" />
+      <option name="METHOD_NAME" value="testAOP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestAop.testAOP" />
+        <item itemvalue="JUnit.SpringDemo2.demo1" />
+        <item itemvalue="JUnit.SpringDemo1.demo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f92375db-f559-49fd-ab1a-f4e1dc09eeae" name="Default Changelist" comment="" />
+      <created>1588583529219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588583529219</updated>
+      <workItem from="1588583535009" duration="3746000" />
+      <workItem from="1588587742208" duration="208000" />
+      <workItem from="1588642584041" duration="10604000" />
+      <workItem from="1588726154311" duration="92000" />
+      <workItem from="1589194947649" duration="290000" />
+      <workItem from="1589439149033" duration="3104000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1116" y="143" key="#com.intellij.ide.util.MemberChooser" timestamp="1588670596188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1116" y="143" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588670596188" />
+    <state width="1023" height="242" key="GridCell.Tab.0.bottom" timestamp="1589443590796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1023" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589443590796" />
+    <state width="1023" height="242" key="GridCell.Tab.0.center" timestamp="1589443590796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1023" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589443590796" />
+    <state width="1023" height="242" key="GridCell.Tab.0.left" timestamp="1589443590796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1023" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589443590796" />
+    <state width="1023" height="242" key="GridCell.Tab.0.right" timestamp="1589443590796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1023" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589443590796" />
+    <state width="1023" height="242" key="GridCell.Tab.1.bottom" timestamp="1589443590796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1023" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589443590796" />
+    <state width="1023" height="242" key="GridCell.Tab.1.center" timestamp="1589443590796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1023" height="242" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589443590796" />
+    <state width="1023" height="242" key="GridCell.Tab.1.left" timestamp="1589443590796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1023" height="242" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589443590796" />
+    <state width="1023" height="242" key="GridCell.Tab.1.right" timestamp="1589443590796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1023" height="242" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589443590796" />
+    <state x="963" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1588726152976">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="963" y="289" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588726152976" />
+    <state x="777" y="122" width="1143" height="743" key="new project wizard" timestamp="1588726317037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="122" width="1143" height="743" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1588726317037" />
+    <state x="976" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1588674854375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="976" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588674854375" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jesse/aspectj/demo3/TestAop.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+package com.jesse.web.action;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.jesse.domain.PageBean;
+import com.jesse.domain.User;
+import com.jesse.service.MessageService;
+import com.jesse.service.impl.MessageServiceImpl;
+
+@WebServlet("/MyMessageServlet")
+public class MyMessageServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//1、接收数据
+		int page = 0;
+		String currPage = request.getParameter("page");
+		if(currPage == null) {
+			page=1;
+		}else {
+			page = Integer.parseInt(currPage);
+		}
+		//2、处理数据
+		User existUser  = (User)request.getSession().getAttribute("existUser");
+		MessageService messageService = new MessageServiceImpl();
+		PageBean pageBean = messageService.findByPage(page, existUser);
+		//3、页面跳转
+		request.setAttribute("pageBean", pageBean);
+		request.getRequestDispatcher("/admin/my_message_list.jsp").forward(request, response);		
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

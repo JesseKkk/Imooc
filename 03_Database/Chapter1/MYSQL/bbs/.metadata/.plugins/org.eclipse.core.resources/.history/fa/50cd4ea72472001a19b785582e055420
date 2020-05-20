@@ -1,0 +1,8 @@
+package com.jesse.domain;
+
+public class User {
+	private String uid;
+	private String username;
+	private String password;
+
+}

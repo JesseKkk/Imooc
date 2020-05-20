@@ -1,0 +1,47 @@
+package com.jesse.jdbc.demo2;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import org.junit.Test;
+
+import com.jesse.jdbc.utils.JDBCUtils;
+
+public class JDBCDemo4 {
+	
+	@Test
+	/**
+	 *  演示JDBC的注入的漏洞
+	 */
+	public void demo1() {
+		login("aaa","111");
+	}
+	
+	public static boolean login(String username, String password) {
+		Connection conn = null;
+		Statement stmt = null;
+		ResultSet rs = null;
+		boolean flag = false;
+		try {
+			//获得连接
+			conn = JDBCUtils.createConnection();
+			//获得SQL执行对象
+			stmt = conn.createStatement();
+			//SQL语句
+			String sql = "SELECT * FROM user WHERE username='" +username +  "' AND password='" + password + "'";
+			//SQL语句执行
+			rs = stmt.executeQuery(sql);
+			if(rs.next()) {
+				flag = true;
+			}else {
+				flag = false;
+			}
+		}catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			JDBCUtils.release(stmt, conn, rs);
+		}
+		return flag;
+	}
+}
