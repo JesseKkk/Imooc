@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jesse.shop.dao.StoreCategoryDao">
+
+    <select id="queryStoreCategory" resultType="StoreCategory">
+        SELECT  * FROM tb_store_category
+        <where>
+            <if test="storeCategoryCondition == null">
+                and parent_id is null
+            </if>
+            <if test="storeCategoryCondition != null">
+                and parent_id is not null
+            </if>
+            <if test="storeCategoryCondition !=null and storeCategoryCondition.parent != null and storeCategoryCondition.parent.storeCategoryId != null">
+                and parent_id = #{storeCategoryCondition.parent.storeCategoryId}
+            </if>
+        </where>
+        ORDER BY
+        priority DESC
+    </select>
+</mapper>

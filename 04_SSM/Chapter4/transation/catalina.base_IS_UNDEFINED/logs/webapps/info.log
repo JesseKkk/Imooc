@@ -1,0 +1,27 @@
+2020-07-12 16:53:41.169 [main] INFO  com.jesse.transation.dao.TestaDaoTest - Starting TestaDaoTest on DESKTOP-GPC3LK0 with PID 6972 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 16:53:41.169 [main] INFO  com.jesse.transation.dao.TestaDaoTest - No active profile set, falling back to default profiles: default
+2020-07-12 16:53:43.228 [main] INFO  com.jesse.transation.dao.TestaDaoTest - Started TestaDaoTest in 2.328 seconds (JVM running for 3.721)
+2020-07-12 16:54:40.389 [main] INFO  com.jesse.transation.biz.TestBizTest - Starting TestBizTest on DESKTOP-GPC3LK0 with PID 3216 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 16:54:40.389 [main] INFO  com.jesse.transation.biz.TestBizTest - No active profile set, falling back to default profiles: default
+2020-07-12 16:54:42.395 [main] INFO  com.jesse.transation.biz.TestBizTest - Started TestBizTest in 2.375 seconds (JVM running for 3.896)
+2020-07-12 16:57:37.244 [main] INFO  com.jesse.transation.biz.TestBizTest - Starting TestBizTest on DESKTOP-GPC3LK0 with PID 5496 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 16:57:37.244 [main] INFO  com.jesse.transation.biz.TestBizTest - No active profile set, falling back to default profiles: default
+2020-07-12 16:57:39.953 [main] INFO  com.jesse.transation.biz.TestBizTest - Started TestBizTest in 3.04 seconds (JVM running for 4.447)
+2020-07-12 16:58:38.478 [main] INFO  com.jesse.transation.biz.TestBizTest - Starting TestBizTest on DESKTOP-GPC3LK0 with PID 16008 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 16:58:38.478 [main] INFO  com.jesse.transation.biz.TestBizTest - No active profile set, falling back to default profiles: default
+2020-07-12 16:58:40.656 [main] INFO  com.jesse.transation.biz.TestBizTest - Started TestBizTest in 2.488 seconds (JVM running for 3.918)
+2020-07-12 17:02:47.451 [main] INFO  com.jesse.transation.biz.TestBizTest - Starting TestBizTest on DESKTOP-GPC3LK0 with PID 804 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 17:02:47.451 [main] INFO  com.jesse.transation.biz.TestBizTest - No active profile set, falling back to default profiles: default
+2020-07-12 17:02:49.515 [main] INFO  com.jesse.transation.biz.TestBizTest - Started TestBizTest in 2.347 seconds (JVM running for 3.758)
+2020-07-12 17:06:28.727 [main] INFO  com.jesse.transation.biz.TestBizTest - Starting TestBizTest on DESKTOP-GPC3LK0 with PID 15560 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 17:06:28.727 [main] INFO  com.jesse.transation.biz.TestBizTest - No active profile set, falling back to default profiles: default
+2020-07-12 17:06:30.633 [main] INFO  com.jesse.transation.biz.TestBizTest - Started TestBizTest in 2.21 seconds (JVM running for 3.528)
+2020-07-12 17:09:09.195 [main] INFO  com.jesse.transation.biz.TestBizTest - Starting TestBizTest on DESKTOP-GPC3LK0 with PID 15140 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 17:09:09.195 [main] INFO  com.jesse.transation.biz.TestBizTest - No active profile set, falling back to default profiles: default
+2020-07-12 17:09:11.272 [main] INFO  com.jesse.transation.biz.TestBizTest - Started TestBizTest in 2.429 seconds (JVM running for 3.757)
+2020-07-12 17:10:51.502 [main] INFO  com.jesse.transation.biz.TestBizTest - Starting TestBizTest on DESKTOP-GPC3LK0 with PID 14612 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 17:10:51.502 [main] INFO  com.jesse.transation.biz.TestBizTest - No active profile set, falling back to default profiles: default
+2020-07-12 17:10:53.581 [main] INFO  com.jesse.transation.biz.TestBizTest - Started TestBizTest in 2.541 seconds (JVM running for 3.889)
+2020-07-12 17:13:37.750 [main] INFO  com.jesse.transation.biz.TestBizTest - Starting TestBizTest on DESKTOP-GPC3LK0 with PID 10368 (started by Kong in G:\SSM\Chapter4\transation)
+2020-07-12 17:13:37.750 [main] INFO  com.jesse.transation.biz.TestBizTest - No active profile set, falling back to default profiles: default
+2020-07-12 17:13:39.913 [main] INFO  com.jesse.transation.biz.TestBizTest - Started TestBizTest in 2.512 seconds (JVM running for 3.944)

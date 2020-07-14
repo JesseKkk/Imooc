@@ -1,0 +1,3 @@
+2020-07-14 20:58:52.438 [main] INFO  com.jesse.shop.ShopApplication - Starting ShopApplication on DESKTOP-GPC3LK0 with PID 8244 (G:\SSM\Chapter4\shop\target\classes started by Kong in G:\SSM\Chapter4\shop)
+2020-07-14 20:58:52.494 [main] INFO  com.jesse.shop.ShopApplication - No active profile set, falling back to default profiles: default
+2020-07-14 20:58:57.263 [main] INFO  com.jesse.shop.ShopApplication - Started ShopApplication in 6.105 seconds (JVM running for 9.661)

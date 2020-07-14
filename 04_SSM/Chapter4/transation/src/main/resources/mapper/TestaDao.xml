@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jesse.transation.dao.TestaDao">
+
+    <insert id="insertTesta" parameterType="Testa"
+            useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        INSERT INTO testa(name,pwd) VALUES (#{name}, #{pwd})
+    </insert>
+
+    <delete id="deleteTestaById" parameterType="Integer">
+        DELETE FROM testa WHERE id=#{id}
+    </delete>
+
+</mapper>

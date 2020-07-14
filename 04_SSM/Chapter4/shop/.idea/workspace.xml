@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ddbd379-186d-4ee0-aa15-8e2b9bb339bd" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="G:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="G:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eWMHPq9OjpG2nQJT0zmwV93M4w" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jesse.shop.interceptor.storeadmin" />
+      <recent name="com.jesse.shop.dto" />
+      <recent name="com.jesse.shop.biz" />
+      <recent name="com.jesse.shop.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SSM\Chapter4\shop\src\main" />
+      <recent name="G:\SSM\Chapter4\shop\src\main\java\com\jesse\shop" />
+      <recent name="G:\SSM\Chapter4\shop\src\main\java\com\jesse\shop\util" />
+      <recent name="G:\SSM\Chapter4\shop\src\main\java\com\jesse\shop\config" />
+      <recent name="G:\SSM\Chapter4\shop\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShopApplication">
+    <configuration name="AreaBizTest.testGetAreaList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.shop.biz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.shop.biz" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.shop.biz.AreaBizTest" />
+      <option name="METHOD_NAME" value="testGetAreaList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductImgDaoTest.testBQueryProductImgList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.shop.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.shop.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.shop.dao.ProductImgDaoTest" />
+      <option name="METHOD_NAME" value="testBQueryProductImgList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreBizTest.testAddStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.shop.biz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.shop.biz" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.shop.biz.StoreBizTest" />
+      <option name="METHOD_NAME" value="testAddStore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreCategoryDaoTest.testQueryStoreCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.shop.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.shop.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.shop.dao.StoreCategoryDaoTest" />
+      <option name="METHOD_NAME" value="testQueryStoreCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreDaoTest.testQueryByStoreId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jesse.shop.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jesse.shop.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jesse.shop.dao.StoreDaoTest" />
+      <option name="METHOD_NAME" value="testQueryByStoreId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jesse.shop.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StoreBizTest.testAddStore" />
+        <item itemvalue="JUnit.AreaBizTest.testGetAreaList" />
+        <item itemvalue="JUnit.StoreDaoTest.testQueryByStoreId" />
+        <item itemvalue="JUnit.StoreCategoryDaoTest.testQueryStoreCategory" />
+        <item itemvalue="JUnit.ProductImgDaoTest.testBQueryProductImgList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ddbd379-186d-4ee0-aa15-8e2b9bb339bd" name="Default Changelist" comment="" />
+      <created>1594432806488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594432806488</updated>
+      <workItem from="1594432807725" duration="10145000" />
+      <workItem from="1594453462930" duration="4538000" />
+      <workItem from="1594517691880" duration="4242000" />
+      <workItem from="1594528672203" duration="7533000" />
+      <workItem from="1594604005075" duration="10401000" />
+      <workItem from="1594689255890" duration="475000" />
+      <workItem from="1594695690094" duration="2796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

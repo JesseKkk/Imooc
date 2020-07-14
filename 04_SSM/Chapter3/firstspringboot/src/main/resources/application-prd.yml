@@ -1,0 +1,24 @@
+server:
+  port: 80
+
+logging:
+  level:
+    root: info
+  file:
+    name: /local/user/app-prd.log
+
+debug: false
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://155.32.35.88:3306/test
+    username: root
+    password: adfas23!
+
+mall:
+  config:
+    name: 优美商城
+    description: 这是一家化妆品特卖网
+    host-sales: 20
+    show-advert: true

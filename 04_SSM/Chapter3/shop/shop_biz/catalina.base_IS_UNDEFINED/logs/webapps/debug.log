@@ -1,0 +1,15 @@
+2020-07-09 20:32:41.079 [main] DEBUG com.jesse.shop.dao.AreaDao.queryArea - ==>  Preparing: SELECT * FROM tb_area ORDER BY priority DESC 
+2020-07-09 20:32:41.130 [main] DEBUG com.jesse.shop.dao.AreaDao.queryArea - ==> Parameters: 
+2020-07-09 20:32:41.152 [main] DEBUG com.jesse.shop.dao.AreaDao.queryArea - <==      Total: 2
+2020-07-09 21:02:59.909 [main] DEBUG com.jesse.shop.dao.HeadLineDao.queryHeadLine - ==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line WHERE enable_status = ? ORDER BY priority DESC 
+2020-07-09 21:02:59.938 [main] DEBUG com.jesse.shop.dao.HeadLineDao.queryHeadLine - ==> Parameters: 1(Integer)
+2020-07-09 21:02:59.964 [main] DEBUG com.jesse.shop.dao.HeadLineDao.queryHeadLine - <==      Total: 4
+2020-07-09 21:24:17.947 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - ==>  Preparing: SELECT * FROM tb_store_category WHERE parent_id is not null and parent_id = ? ORDER BY priority DESC 
+2020-07-09 21:24:17.979 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - ==> Parameters: 12(Long)
+2020-07-09 21:24:18.002 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - <==      Total: 2
+2020-07-09 21:25:43.931 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - ==>  Preparing: SELECT * FROM tb_store_category WHERE parent_id is null ORDER BY priority DESC 
+2020-07-09 21:25:43.970 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - ==> Parameters: 
+2020-07-09 21:25:43.994 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - <==      Total: 6
+2020-07-09 21:27:32.568 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - ==>  Preparing: SELECT * FROM tb_store_category WHERE parent_id is not null ORDER BY priority DESC 
+2020-07-09 21:27:32.605 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - ==> Parameters: 
+2020-07-09 21:27:32.630 [main] DEBUG c.j.shop.dao.StoreCategoryDao.queryStoreCategory - <==      Total: 12

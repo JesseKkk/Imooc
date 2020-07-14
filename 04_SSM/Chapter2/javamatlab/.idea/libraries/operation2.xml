@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="operation2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/jesse/lib/operation2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

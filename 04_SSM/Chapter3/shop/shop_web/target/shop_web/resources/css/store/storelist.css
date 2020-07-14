@@ -1,0 +1,15 @@
+.row-store {
+    border: 1px solid #999;
+    padding: .5rem;
+    border-bottom: none;
+}
+.row-store:last-child {
+    border-bottom: 1px solid #999;
+}
+.store-name {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.store-wrap a {
+
+}

@@ -1,0 +1,42 @@
+2020-07-12 16:53:41.169 [main] DEBUG com.jesse.transation.dao.TestaDaoTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 16:53:43.962 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 16:53:44.024 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: kong(String), 123(String)
+2020-07-12 16:53:44.055 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 16:54:40.389 [main] DEBUG com.jesse.transation.biz.TestBizTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 16:54:43.161 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 16:54:43.176 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin(String), 123(String)
+2020-07-12 16:54:43.192 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 16:57:37.244 [main] DEBUG com.jesse.transation.biz.TestBizTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 16:57:40.743 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 16:57:40.774 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin(String), 123(String)
+2020-07-12 16:57:40.774 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 16:58:38.478 [main] DEBUG com.jesse.transation.biz.TestBizTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 16:58:41.406 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 16:58:41.437 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin(String), 123(String)
+2020-07-12 16:58:41.452 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 17:02:47.451 [main] DEBUG com.jesse.transation.biz.TestBizTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 17:02:50.281 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 17:02:50.312 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin(String), 123(String)
+2020-07-12 17:02:50.328 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 17:06:28.727 [main] DEBUG com.jesse.transation.biz.TestBizTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 17:06:31.403 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 17:06:31.435 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin(String), 123(String)
+2020-07-12 17:06:31.450 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 17:09:09.195 [main] DEBUG com.jesse.transation.biz.TestBizTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 17:09:11.991 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 17:09:12.053 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin(String), 123(String)
+2020-07-12 17:09:12.069 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 17:10:51.502 [main] DEBUG com.jesse.transation.biz.TestBizTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 17:10:54.347 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 17:10:54.378 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin1(String), 123(String)
+2020-07-12 17:10:54.394 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 17:10:54.409 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 17:10:54.409 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin2(String), 123(String)
+2020-07-12 17:10:54.409 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 17:13:37.750 [main] DEBUG com.jesse.transation.biz.TestBizTest - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-12 17:13:40.679 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==>  Preparing: INSERT INTO testa(name,pwd) VALUES (?, ?)
+2020-07-12 17:13:40.694 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - ==> Parameters: jin1(String), 123(String)
+2020-07-12 17:13:40.710 [main] DEBUG com.jesse.transation.dao.TestaDao.insertTesta - <==    Updates: 1
+2020-07-12 17:13:40.726 [main] DEBUG com.jesse.transation.dao.TestbDao.insertTestb - ==>  Preparing: INSERT INTO testb(name,pwd) VALUES (?, ?)
+2020-07-12 17:13:40.726 [main] DEBUG com.jesse.transation.dao.TestbDao.insertTestb - ==> Parameters: jin2(String), 123(String)
+2020-07-12 17:13:40.726 [main] DEBUG com.jesse.transation.dao.TestbDao.insertTestb - <==    Updates: 1

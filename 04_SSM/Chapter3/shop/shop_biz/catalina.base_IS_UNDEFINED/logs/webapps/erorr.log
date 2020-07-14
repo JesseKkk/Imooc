@@ -1,0 +1,4 @@
+2020-06-23 16:48:00.171 [main] ERROR com.jesse.shop.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-06-23 17:20:10.102 [main] ERROR com.jesse.shop.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-06-23 21:48:05.927 [main] ERROR com.jesse.shop.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-06-23 21:52:10.720 [main] ERROR com.jesse.shop.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
